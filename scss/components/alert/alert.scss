@@ -1,0 +1,19 @@
+// @desc        Base alerts styles.
+// @name        Alert
+// @author
+// @tested
+// @requires
+
+// Boite d'alerte
+//
+// Markup:
+// <div class="alert">
+//     <p>Lorem Ipsum</p>
+// </div>
+//
+// Styleguide 9.1
+.alert {
+@extend .p1;
+  border: solid 1px #d2d2c7;
+  border-radius: 5px;
+}

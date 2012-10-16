@@ -1,0 +1,32 @@
+// @desc Alert color
+// @extends .alert
+
+// Les différentes couleurs
+//
+// Markup:
+// <div class="alert {$modifiers}">
+//     <p>Lorem Ipsum</p>
+// </div>
+//
+// .alertInfo            - Boite d'alerte pour afficher des informations
+// .alertSuccess         - Boite d'alerte pour afficher les message de succès
+// .alertError           - Boite d'alerte pour afficher les messages d'erreur
+//
+// Styleguide 9.2
+.alertInfo {
+  background-color: #d8eaf0;
+  border: solid 1px #c6d9e9;
+  color: #354F84;
+}
+
+.alertSuccess {
+  background-color: #dff0d8;
+  border: solid 1px #d6e9c6;
+  color: #468847;
+}
+
+.alertError {
+  background-color: #f2dede;
+  border: solid 1px #eed3d7;
+  color: #b94a48;
+}

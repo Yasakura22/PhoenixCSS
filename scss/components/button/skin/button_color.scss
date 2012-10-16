@@ -1,0 +1,27 @@
+// @desc Button colors
+// @extends .button
+
+// Les différentes couleurs
+//
+// Markup:
+//    <button class="button {$modifiers}">button element</button>
+//    <input type="submit" class="button {$modifiers}" value="input:submit" />
+//    <a href="#" class="button {$modifiers}">link element</a>
+//
+// .buttonBlue              - Bouton bleu
+// .buttonGrey              - Bouton gris
+// .buttonGreen             - Bouton vert
+//
+// Styleguide 4.2
+.buttonBlue {
+    background: #b6cfee;
+    background: linear-gradient(to bottom, #b6cfee 0%, #82aede 100%);
+}
+
+.buttonGrey {
+    background-color: #d2d2c7;
+}
+
+.buttonGreen {
+    background-color: #39ae5d;
+}

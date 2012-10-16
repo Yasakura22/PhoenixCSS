@@ -1,0 +1,23 @@
+// @desc        Base select styles
+// @name        Select
+// @author
+// @tested
+// @requires    form.scss
+
+// Select
+//
+// Markup:
+//     <div class="boxField">
+//         <label class="fieldLabel" for="exampleSelect">Label</label>
+//         <select class="fieldSelect" id="exampleSelect" name="exampleSelect">
+//             <option value="option1">option 1</option>
+//             <option value="option2">option 2</option>
+//             <option value="…">…</option>
+//         </select>
+//    </div>
+//
+// Styleguide 6.3
+.fieldSelect {
+    @extend %formFieldStyle;
+    padding: 0;
+}

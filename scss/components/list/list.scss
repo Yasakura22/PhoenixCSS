@@ -1,0 +1,32 @@
+// @desc        Base list styles.
+// @name        List
+// @author
+// @tested
+// @requires
+
+// éviter le marges supplémentaires sur les éléments imbriqués
+li p,
+li ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+// avoid supp margin on nested elements
+li p, li ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+// Liste
+//
+// Markup:
+//    <ul>
+//        <li>List Item 1</li>
+//        <li>List Item 2</li>
+//        <li>List Item 3</li>
+//        <li>List Item 4</li>
+//        <li>List Item 5</li>
+//        <li>List Item 6</li>
+//    </ul>
+//
+// Styleguide 3.1

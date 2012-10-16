@@ -1,0 +1,38 @@
+// @desc        Base form styles
+// @name        Form
+// @author
+// @tested
+// @requires
+
+$spaceElements: 5px;// espacement entre les label et messages erreur par rapport aux input, textarea, ...
+$borderColor: #ccc;
+$fontSize: 14px;
+$fontFamilyForm: arial;
+
+input[placeholder] { text-overflow: ellipsis; }
+
+// Structure de base
+//
+// Un champs de formulaire doit **obligatoirement** être associé à un
+// label. Le tout doit être englobé dans un élémént de type _block_ (exemple une
+// `<div>`).
+//
+// Markup:
+//     <div class="boxField">
+//         <label>Label</label>
+//         <input type="text">
+//     </div>
+//
+// Styleguide 6.1
+
+%formFieldStyle {
+  width: 100%;
+  padding: 0 4px;
+  border: 1px solid $borderColor;
+  border-radius: 2px;
+  font: $fontSize $fontFamilyForm;
+  outline: none;
+  color: #777;
+  background: #fff;
+  height: 30px;
+}

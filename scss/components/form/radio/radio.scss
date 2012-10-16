@@ -1,0 +1,24 @@
+// @desc        Base radio styles
+// @name        Radio
+// @author
+// @tested
+// @requires    form.scss
+
+// Radio
+//
+// Markup:
+//     <div class="boxRadio">
+//         <label class="fieldLabel">
+//             Oui
+//             <input class="fieldRadio" name="exempleRadio" type="radio"/>
+//         </label>
+//         <label class="fieldLabel">
+//             Non
+//             <input class="fieldRadio" name="exempleRadio" type="radio"/>
+//         </label>
+//     </div>
+//
+// Styleguide 6.6
+.fieldRadio {
+    margin-right: em(10);
+}

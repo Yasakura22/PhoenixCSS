@@ -1,0 +1,328 @@
+// @desc        Helpers styles.
+// @name        Useful
+// @author
+// @tested
+// @requires
+
+// Gestion du positionnement en CSS
+//
+// Ici on trouvera les classes servant à modifier le flux d'un élément dans la
+// page.
+//
+// <h2>Disposition en tableau</h2>
+// <pre>
+// .row {
+//   display: table;
+//   table-layout: fixed;
+//   width: 100%;
+// }
+// .col {
+//   display: table-cell;
+//   vertical-align: top;
+// }
+// .gut {
+//   height: 1px;
+// }
+// </pre>
+//
+// <h2>Les displays</h2>
+// <pre>
+// .block { display: block; }
+// .inline { display: inline; }
+// .inbl {
+//   display: inline-block;
+//   vertical-align: top;
+// }
+// </pre>
+//
+// <h2>Float et positions</h2>
+// <pre>
+// .left { float: left; }
+// .right  { float: right }
+// .center { margin-left: auto; margin-right: auto }
+// .absolute { position: absolute; }
+// .relative { position: relative; }
+// </pre>
+//
+// Styleguide 1.1
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.gut {
+  height: 1px;
+}
+
+.block { display: block; }
+.inline { display: inline; }
+
+.inbl {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ie7 .inbl {
+  display: inline;
+  zoom: 1;
+}
+
+.left { float: left; }
+.right  { float: right }
+.center { margin-left: auto; margin-right: auto }
+
+.absolute { position: absolute; }
+.relative { position: relative; }
+
+img.left  { margin-right: 1em }
+img.right { margin-left: 1em }
+img.left,
+img.right { margin-bottom: em(5) }
+
+// Modification de texte
+//
+// Classes permettants de modifier l'apparence d'un texte.
+// <pre>
+// .bold,
+// strong { font-weight: bold }
+// .uppercase { text-transform: uppercase }
+// em,
+// .italic { font-style: italic }
+// </pre>
+//
+// Styleguide 1.3
+.bold,
+strong { font-weight: bold }
+.uppercase { text-transform: uppercase }
+em,
+.italic { font-style: italic }
+
+
+// Alignement de textes
+//
+// Classes permettants de modifiers l'alignement d'un texte.<br>
+// _Attention : les classes `.txtTop`, `.txtBottom` et `.txtMiddle` fonctionnent
+// uniquement sur les éléments positionnés avec une diposition en tableau._
+// <pre>
+// .txtLeft   { text-align: left }
+// .txtRight  { text-align: right }
+// .txtCenter { text-align: center }
+// .txtTop    { vertical-align: top }
+// .txtBottom { vertical-align: bottom }
+// .txtMiddle { vertical-align: middle; }
+// </pre>
+//
+// Styleguide 1.4
+.txtLeft   { text-align: left }
+.txtRight  { text-align: right }
+.txtCenter { text-align: center }
+.txtTop    { vertical-align: top }
+.txtBottom { vertical-align: bottom }
+.txtMiddle { vertical-align: middle; }
+
+// Marges
+//
+// Classes permettants de modifier les marges d'un élément.
+// <pre>
+// .mt0 { margin-top: 0; }
+// .mt1 { margin-top: 1em; }
+// .mt2 { margin-top: 2em; }
+// .mr0 { margin-right: 0; }
+// .mr1 { margin-right: 1em; }
+// .mr2 { margin-right: 2em; }
+// .mb0 { margin-bottom: 0; }
+// .mb1 { margin-bottom: 1em; }
+// .mb2 { margin-bottom: 2em; }
+// .ml0 { margin-left: 0; }
+// .ml1 { margin-left: 1em; }
+// .ml2 { margin-left: 2em; }
+// .m0  { margin: 0; }
+// .m1  { margin: 1em; }
+// .m2  { margin: 2em; }
+// </pre>
+//
+// Styleguide 1.5
+.mt0 { margin-top: 0; }
+.mt1 { margin-top: 1em; }
+.mt2 { margin-top: 2em; }
+.mr0 { margin-right: 0; }
+.mr1 { margin-right: 1em; }
+.mr2 { margin-right: 2em; }
+.mb0 { margin-bottom: 0; }
+.mb1 { margin-bottom: 1em; }
+.mb2 { margin-bottom: 2em; }
+.ml0 { margin-left: 0; }
+.ml1 { margin-left: 1em; }
+.ml2 { margin-left: 2em; }
+.m0  { margin: 0; }
+.m1  { margin: 1em; }
+.m2  { margin: 2em; }
+
+// Padding
+//
+// Classes permettants de modifier le padding d'un élément.
+// <pre>
+// .pt0 { padding-top: 0; }
+// .pt1 { padding-top: 1em; }
+// .pt2 { padding-top: 2em; }
+// .pr0 { padding-right: 0; }
+// .pr1 { padding-right: 1em; }
+// .pr2 { padding-right: 2em; }
+// .pb0 { padding-bottom: 0; }
+// .pb1 { padding-bottom: 1em; }
+// .pb2 { padding-bottom: 2em; }
+// .pl0 { padding-left: 0; }
+// .pl1 { padding-left: 1em; }
+// .pl2 { padding-left: 2em; }
+// .p0  { padding: 0; }
+// .p1  { padding: 1em; }
+// .p2  { padding: 2em; }
+// </pre>
+//
+// Styleguide 1.6
+.pt0 { padding-top: 0; }
+.pt1 { padding-top: 1em; }
+.pt2 { padding-top: 2em; }
+.pr0 { padding-right: 0; }
+.pr1 { padding-right: 1em; }
+.pr2 { padding-right: 2em; }
+.pb0 { padding-bottom: 0; }
+.pb1 { padding-bottom: 1em; }
+.pb2 { padding-bottom: 2em; }
+.pl0 { padding-left: 0; }
+.pl1 { padding-left: 1em; }
+.pl2 { padding-left: 2em; }
+.p0  { padding: 0; }
+.p1  { padding: 1em; }
+.p2  { padding: 2em; }
+
+// Largeurs
+//
+// Classes permettants de modifier la largeur d'un élément.
+// <pre>
+// .w1   { width: 1%; }
+// .w2   { width: 2%; }
+// .w3   { width: 3%; }
+// .w5   { width: 5%; }
+// .w10  { width: 10%; }
+// .w20  { width: 20%; }
+// .w25  { width: 25%; }
+// .w30  { width: 30%; }
+// .w33  { width: 33.333%; }
+// .w40  { width: 40%; }
+// .w45  { width: 45%; }
+// .w49  { width: 49%; }
+// .w50  { width: 50%; }
+// .w60  { width: 60%; }
+// .w66  { width: 66.666%; }
+// .w70  { width: 70%; }
+// .w75  { width: 75%; }
+// .w80  { width: 80%; }
+// .w90  { width: 90%; }
+// .w100 { width: 100%; }
+// .wAuto { width: auto; }
+// </pre>
+//
+// Styleguide 1.7
+.w1   { width: 1%; }
+.w2   { width: 2%; }
+.w3   { width: 3%; }
+.w5   { width: 5%; }
+.w10  { width: 10%; }
+.w20  { width: 20%; }
+.w25  { width: 25%; }
+.w30  { width: 30%; }
+.w33  { width: 33.333%; }
+.w40  { width: 40%; }
+.w45  { width: 45%; }
+.w49  { width: 49%; }
+.w50  { width: 50%; }
+.w60  { width: 60%; }
+.w66  { width: 66.666%; }
+.w70  { width: 70%; }
+.w75  { width: 75%; }
+.w80  { width: 80%; }
+.w90  { width: 90%; }
+.w100 { width: 100%; }
+.wAuto { width: auto; }
+
+// Classes diverses
+//
+// Quelques classe qui peuvent s'avérer utile notament `.visuallyHidden` qui
+// permet de cacher un élément devant rester dans le flux (exemple : pour des
+// raisons d'accéssibilité).
+// <pre>
+// .visuallyHidden {
+//     position: absolute;
+//     left: em(-7000);
+//     overflow: hidden;
+// }
+// .hide { display: none }
+// .noUnderline { text-decoration: none; }
+// .pointer { cursor: pointer; }
+// </pre>
+//
+// Styleguide 1.8
+.visuallyHidden {
+    position: absolute;
+    left: em(-7000);
+    overflow: hidden;
+}
+
+.hide { display: none; }
+
+.noUnderline { text-decoration: none; }
+
+.pointer { cursor: pointer; }
+
+// Clear Floated Elements
+// --------------------------------------------------------------------------
+
+.clear { clear: both; }
+.clearNone { clear: none; }
+
+// http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack
+
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+@media only screen and (max-width: 479px) {
+  	.noSmallScreen {
+   		display: none;
+  	}
+}
+
+// Quelques exemples
+//
+// * Disposition en 2 colones : http://jsfiddle.net/integrateurwebb/62601owz/
+// * Disposition en 3 colones avec goutière : http://jsfiddle.net/integrateurwebb/oz9gpq67/
+// * Centrer un boutton : http://jsfiddle.net/integrateurwebb/zrjopvst/
+// * Alignement vertical : http://jsfiddle.net/integrateurwebb/pnhqkepw/
+//
+// Styleguide 1.9

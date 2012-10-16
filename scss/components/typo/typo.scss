@@ -1,0 +1,104 @@
+// @desc        Base typography styles.
+// @name        Typography
+// @author
+// @tested
+// @requires    variables.scss
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: $colorText;
+    font-family: $fontFamily;
+    line-height: 1.5;
+}
+
+p, ul, ol, dl, blockquote, pre, td, th, label, textarea, caption {
+    @include fontSize(16);
+    margin: 0 0 1.5em 0;
+}
+
+// Titres
+//
+// Markup:
+//    <h1>Heading 1</h1>
+//    <h2>Heading 2</h2>
+//    <h3>Heading 3</h3>
+//    <h4>Heading 4</h4>
+//    <h5>Heading 5</h5>
+//    <h6>Heading 6</h6>
+//
+// Styleguide 2.1
+h1, .h1Like { @include fontSize(26); } // equiv 26px
+h2, .h2Like { @include fontSize(24); } // ...
+h3, .h3Like { @include fontSize(22); }
+h4, .h4Like { @include fontSize(20); }
+h5, .h5Like { @include fontSize(18); }
+h6, .h6Like { @include fontSize(16); }
+
+// enlever marge sur le premier enfant
+h1:first-child,.h1-like:first-child,
+h2:first-child,.h2-like:first-child,
+h3:first-child,.h3-like:first-child,
+h4:first-child,.h4-like:first-child,
+h5:first-child,.h5-like:first-child,
+h6:first-child,.h6-like:first-child {
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-weight: normal; }
+
+
+// enlever marge basse sur le dernier enfant
+p:last-child,
+ul:last-child,
+ol:last-child,
+dl:last-child,
+blockquote:last-child,
+pre:last-child,
+table:last-child {
+    margin-bottom: 0;
+}
+
+// Paragraphes
+//
+// Markup:
+// <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+// eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+// minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+// ex ea commodo consequat.</p>
+//
+// Styleguide 2.2
+
+// Les différentes tailles de texte
+//
+// Markup:
+//    <p class="{$modifiers}">Lorem ipsum</P>
+//
+// .smaller     - Texte le plus petit
+// .small       - Texte plus petit que la taille de base
+// .big         - Texte plus grand que la taille de base
+// .bigger      - Texte encore plus grand
+// .biggest     - Texte le plus grand
+//
+// Styleguide 2.3
+.smaller { @include fontSize(10); }
+.small   { @include fontSize(12); }
+.big     { @include fontSize(18); }
+.bigger  { @include fontSize(30); }
+.biggest { @include fontSize(43); }
+
+code, pre, samp {
+    font-family: $fontFamilyCode;
+    white-space: pre-wrap;
+}
+
+code {
+    line-height: 1;
+}

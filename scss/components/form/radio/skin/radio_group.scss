@@ -1,0 +1,57 @@
+/*
+ @desc Radio group
+ @extends .boxRadio
+
+ Radio groupés
+
+ :hover       - style au survol
+ .isActive    - classe à appliquer sur l'élément sélectioné.
+
+ Markup:
+     <div class="boxRadio radioGroup">
+         <label class="fieldLabel {$modifiers}">
+             Oui
+             <input class="fieldRadio" name="exempleRadio" type="radio" value="a"/>
+         </label>
+         <label class="fieldLabel">
+             Non
+             <input class="fieldRadio" name="exempleRadio" type="radio" value="b"/>
+         </label>
+     </div>
+
+ Styleguide 6.6.1
+*/
+.boxRadio.radioGroup {
+    display: inline-block;
+
+    .fieldLabel {
+        border: solid 1px #adadad;
+        float: left;
+        margin-left: -1px;
+        padding: em(4) em(15) em(2);
+
+        &:hover { background-color: #e6e6e6; }
+    }
+
+    .fieldLabel:first-child {
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+    .fieldLabel:last-child {
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    .fieldRadio {
+        @extend .visuallyHidden;
+    }
+
+    .fieldLabel.isActive {
+        background: #3f62a2;
+        background: linear-gradient(to bottom,  #3f62a2 0%,#0d2a84 100%);
+        border-color: #3f62a2;
+        color: #fff;
+    }
+}
+
+

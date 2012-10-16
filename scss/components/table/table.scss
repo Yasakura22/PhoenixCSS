@@ -1,0 +1,85 @@
+// @desc        Base table styles
+// @name        Table
+// @author
+// @tested
+// @requires
+
+// Tableau de Base
+//
+// Markup:
+// <table class="tableContent">
+//     <thead>
+//         <tr>
+//             <th class="titleTable">Col. 1</th>
+//             <th class="titleTable">Col. 2</th>
+//             <th class="titleTable">Col. 3</th>
+//         </tr>
+//     </thead>
+//     <tbody>
+//         <tr class="lineColorGrey">
+//             <td class="tableCell">Lorem Ipsum</td>
+//             <td class="tableCell">Lorem Ipsum</td>
+//             <td class="tableCell">Lorem Ipsum</td>
+//         </tr>
+//         <tr>
+//             <td class="tableCell">Lorem Ipsum</td>
+//             <td class="tableCell">Lorem Ipsum</td>
+//             <td class="tableCell">Lorem Ipsum</td>
+//         </tr>
+//         <tr class="lineColorGrey">
+//             <td class="tableCell">Lorem Ipsum</td>
+//             <td class="tableCell">Lorem Ipsum</td>
+//             <td class="tableCell">Lorem Ipsum</td>
+//         </tr>
+//         <tr>
+//             <td class="tableCell">Lorem Ipsum</td>
+//             <td class="tableCell">Lorem Ipsum</td>
+//             <td class="tableCell">Lorem Ipsum</td>
+//         </tr>
+//     </tbody>
+// </table>
+//
+// Styleguide 7.1
+.tableContent { @extend .w100; }
+//.titleTable { color }
+.lineColorGrey { background-color: #ebebeb; }
+.titleTable,
+.tableCell {
+    padding: em(5);
+    text-align: center;
+}
+
+// Bordure
+//
+// Markup:
+// <table class="tableContent">
+//     <thead>
+//         <tr class="borderRowBottom borderRowTop">
+//             <th class="borderCellLeft  borderCellRight titleTable">Col. 1</th>
+//             <th class="borderCellRight titleTable">Col. 2</th>
+//             <th class="borderCellRight titleTable">Col. 3</th>
+//         </tr>
+//     </thead>
+//     <tbody>
+//         <tr class="borderRowBottom">
+//             <td class="borderCellLeft  borderCellRight tableCell">Lorem Ipsum</td>
+//             <td class="borderCellRight tableCell">Lorem Ipsum</td>
+//             <td class="borderCellRight tableCell">Lorem Ipsum</td>
+//         </tr>
+//         <tr class="borderRowBottom">
+//             <td class="borderCellLeft  borderCellRight tableCell">Lorem Ipsum</td>
+//             <td class="borderCellRight tableCell">Lorem Ipsum</td>
+//             <td class="borderCellRight tableCell">Lorem Ipsum</td>
+//         </tr>
+//     </tbody>
+// </table>
+//
+// Styleguide 7.2
+.borderCellBottom,
+.borderRowBottom { border-bottom: 1px solid #ebebeb; }
+
+.borderCellTop,
+.borderRowTop { border-top: 1px solid #ebebeb; }
+
+.borderCellLeft { border-left: 1px solid #ebebeb; }
+.borderCellRight { border-right: 1px solid #ebebeb; }

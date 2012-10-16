@@ -1,0 +1,9 @@
+// Convert px to em
+//
+// @param $size - the value in pixel you want to convert
+//
+// e.g. p { margin: em(12); }
+
+@function em($px, $base: $baseFont) {
+    @return ($px / $base) * 1em;
+}

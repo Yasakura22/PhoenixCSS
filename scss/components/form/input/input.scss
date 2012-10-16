@@ -1,0 +1,34 @@
+// @desc        Base input styles
+// @name        Input
+// @author
+// @tested
+// @requires    form.scss
+
+// Input
+//
+// Classe pour les différents type d'input :
+//
+// Classe           |   Input
+// -----------------|-------------------
+// .fieldDate       |   type="date"
+// .fieldEmail      |   type="email"
+// .fieldText       |   type="text"
+// .fieldTel        |   type="tel"
+// .fieldNumber     |   type="number"
+// .fieldPassword   |   type="password"
+//
+// Markup:
+//     <div class="boxField">
+//         <label class="fieldLabel" for="exampleInput">Label</label>
+//         <input class="fieldText" id="exampleInput" name="exampleInput" type="text"/>
+//    </div>
+//
+// Styleguide 6.4
+.fieldDate,
+.fieldEmail,
+.fieldText,
+.fieldTel,
+.fieldNumber,
+.fieldPassword {
+    @extend %formFieldStyle;
+}

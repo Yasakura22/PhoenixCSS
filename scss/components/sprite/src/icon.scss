@@ -1,0 +1,15 @@
+// @desc        Icon sprite with compass.
+// @name        Icon
+// @author
+// @tested
+// @requires
+
+$icon-sprite-dimensions: true;
+$icon-layout: diagonal;
+@import "../imgs/icon/*.png";
+@include all-icon-sprites;
+
+[class*="icon-"] {
+    display: inline-block;
+    margin-right: 0.3em;
+}

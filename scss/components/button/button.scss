@@ -1,0 +1,44 @@
+// @desc        Base button styles.
+// @name        Button
+// @author
+// @tested
+// @requires    variables.scss
+
+
+// Bouton de base
+//
+// Markup:
+//    <button class="button">button element</button>
+//    <input type="submit" class="button" value="input:submit" />
+//    <a href="#" class="button">link element</a>
+//
+// Styleguide 4.1
+.button {
+    @include fontSize(14);
+    background-color: grey;
+    border: 0;
+    border-radius: em(3);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: $fontFamily;
+    margin: 0;
+    padding: em(4.5) em(20);
+    position: relative;
+    text-align: center;
+    -webkit-appearance: none;
+}
+
+a.button { text-decoration: none; }
+a.button:hover,
+a.button:focus { color: #fff; }
+
+.button:active {
+  border: 0;
+  top: em(3);
+}
+
+.button:focus {
+    border: dotted 1px $linkHoverColor;
+}
+input[type="submit"] { line-height: 1.5 }

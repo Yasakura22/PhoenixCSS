@@ -1,0 +1,15 @@
+// Couleurs des textes
+//
+// Markup:
+// <p class="{$modifiers}">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+//
+// .textColorBlack          - Noir.
+// .textColorBlue           - Bleu.
+// .textColorWhite          - Blanc.
+// .textColorRed            - Rouge.
+//
+// Styleguide 2.4
+.textColorBlack       { color: #000 }
+.textColorBlue        { color:#286fc7; }
+.textColorWhite       { color: #fff }
+.textColorRed         { color: #e82231 }

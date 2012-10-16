@@ -1,0 +1,19 @@
+// @desc Button shape
+// @extends .button
+
+// Les différentes taille
+//
+// En ajoutant la class `.tiny` le bouton aura une taille plus petite. On peut
+// combiner `.tiny` avec `.border`.
+//
+// Markup:
+//    <button class="button {$modifiers}">button element</button>
+//    <input type="submit" class="button {$modifiers}" value="input:submit" />
+//    <a href="#" class="button {$modifiers}">link element</a>
+//
+// .button.tiny            - Petit bouton
+//
+// Styleguide 4.3
+.button.tiny {
+    padding: em(2) em(5);
+}

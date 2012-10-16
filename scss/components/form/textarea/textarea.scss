@@ -1,0 +1,19 @@
+// @desc        Base textarea styles
+// @name        Textarea
+// @author
+// @tested
+// @requires    form.scss
+
+// Input
+//
+// Markup:
+//     <div class="boxField">
+//         <label class="fieldLabel" for="exampleTextarea">Label</label>
+//         <textarea class="fieldTextarea" id="exampleTextarea" name="exampleTextarea" rows="5"></textarea>
+//    </div>
+//
+// Styleguide 6.5
+.fieldTextarea {
+    @extend %formFieldStyle;
+    height: auto;
+}

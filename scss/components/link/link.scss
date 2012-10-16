@@ -1,0 +1,22 @@
+// @desc        Link base styles.
+// @name        Link
+// @author
+// @tested
+// @requires    variables.scss
+
+// Les liens
+//
+// Markup:
+//    <a href="#">link element</a>
+//
+// Styleguide 5.1
+a {
+    color: $linkColor;
+
+    &:hover,
+    &:focus {
+        color: $linkHoverColor;
+    }
+}
+
+.textColorWhite a[href^="tel:"] { @extend .textColorWhite; }

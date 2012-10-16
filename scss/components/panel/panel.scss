@@ -1,0 +1,20 @@
+// @desc        Base panels styles.
+// @name        Panel
+// @author
+// @tested
+// @requires
+
+// Panneau de base
+//
+// Markup:
+// <div class="panel">
+//     <p>Lorem Ipsum</p>
+// </div>
+//
+// Styleguide 8.1
+.panel {
+    @extend .p1;
+    background-color: #FFF;
+    border: 1px solid #D2D2C7;
+    border-radius: 5px;
+}
