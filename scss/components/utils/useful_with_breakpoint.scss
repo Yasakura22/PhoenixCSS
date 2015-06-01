@@ -12,7 +12,7 @@
 // Les suffixes correspondent à la taille d'écran à partir de laquelle on souhaite
 // voir le style s'appliquer.
 //
-// Les suffixent disponibles sont `-s320`, `-s480`, `-s768`, `-s960`, `-s1200`.
+// Les suffixent disponibles sont `-s320`, `-s480`, `-s768`, `-s992`, `-s1200`.
 //
 // Par exemple, si on veut appliquer une marge haute de _1em_ sur un élément
 // à partir d'une taille d'écran de 480px, on utilisera la classe `mt1-s480`.
@@ -245,95 +245,95 @@
     .clearNone-s768 { clear: none; }
 }
 
-@media only screen and (min-width: 960px) {
-    .row-s960 { display: table; table-layout: fixed; width: 100%; }
-    .col-s960 { display: table-cell; }
-    .gut-s960 { height: 1px; }
+@media only screen and (min-width: 992px) {
+    .row-s992 { display: table; table-layout: fixed; width: 100%; }
+    .col-s992 { display: table-cell; }
+    .gut-s992 { height: 1px; }
 
-    .block-s960 { display: block; }
-    .inline-s960 { display: inline; }
+    .block-s992 { display: block; }
+    .inline-s992 { display: inline; }
 
-    .txtLeft-s960 { text-align: left; }
-    .txtRight-s960  { text-align: right; }
-    .txtCenter-s960 { text-align: center; }
-    .txtTop-s960    { vertical-align: top; }
-    .txtBottom-s960 { vertical-align: bottom; }
-    .txtMiddle-s960 { vertical-align: middle; }
+    .txtLeft-s992 { text-align: left; }
+    .txtRight-s992  { text-align: right; }
+    .txtCenter-s992 { text-align: center; }
+    .txtTop-s992    { vertical-align: top; }
+    .txtBottom-s992 { vertical-align: bottom; }
+    .txtMiddle-s992 { vertical-align: middle; }
 
-    .left-s960 { float: left; }
-    .right-s960  { float: right }
-    .center-s960 { margin-left: auto; margin-right: auto }
+    .left-s992 { float: left; }
+    .right-s992  { float: right }
+    .center-s992 { margin-left: auto; margin-right: auto }
 
-    .mt0-s960 { margin-top: 0; }
-    .mt1-s960 { margin-top: 16px; margin-top: 1rem; }
-    .mt2-s960 { margin-top: 32px; margin-top: 2rem; }
-    .mr0-s960 { margin-right: 0; }
-    .mr1-s960 { margin-right: 16px; margin-right: 1rem; }
-    .mr2-s960 { margin-right: 32px; margin-right: 2rem; }
-    .mb0-s960 { margin-bottom: 0; }
-    .mb1-s960 { margin-bottom: 16px; margin-bottom: 1rem; }
-    .mb2-s960 { margin-bottom: 32px; margin-bottom: 2rem; }
-    .ml0-s960 { margin-left: 0; }
-    .ml1-s960 { margin-left: 16px; margin-left: 1rem; }
-    .ml2-s960 { margin-left: 32px; margin-left: 2rem; }
-    .m0-s960  { margin: 0; }
-    .m1-s960  { margin: 16px; margin: 1rem; }
-    .m2-s960  { margin: 32px; margin: 2rem; }
+    .mt0-s992 { margin-top: 0; }
+    .mt1-s992 { margin-top: 16px; margin-top: 1rem; }
+    .mt2-s992 { margin-top: 32px; margin-top: 2rem; }
+    .mr0-s992 { margin-right: 0; }
+    .mr1-s992 { margin-right: 16px; margin-right: 1rem; }
+    .mr2-s992 { margin-right: 32px; margin-right: 2rem; }
+    .mb0-s992 { margin-bottom: 0; }
+    .mb1-s992 { margin-bottom: 16px; margin-bottom: 1rem; }
+    .mb2-s992 { margin-bottom: 32px; margin-bottom: 2rem; }
+    .ml0-s992 { margin-left: 0; }
+    .ml1-s992 { margin-left: 16px; margin-left: 1rem; }
+    .ml2-s992 { margin-left: 32px; margin-left: 2rem; }
+    .m0-s992  { margin: 0; }
+    .m1-s992  { margin: 16px; margin: 1rem; }
+    .m2-s992  { margin: 32px; margin: 2rem; }
 
-    .pt0-s960 { padding-top: 0; }
-    .pt1-s960 { padding-top: 16px; padding-top: 1rem; }
-    .pt2-s960 { padding-top: 32px; padding-top: 2rem; }
-    .pr0-s960 { padding-right: 0; }
-    .pr1-s960 { padding-right: 16px; padding-right: 1rem; }
-    .pr2-s960 { padding-right: 32px; padding-right: 2rem; }
-    .pb0-s960 { padding-bottom: 0; }
-    .pb1-s960 { padding-bottom: 16px; padding-bottom: 1rem; }
-    .pb2-s960 { padding-bottom: 32px; padding-bottom: 2rem; }
-    .pl0-s960 { padding-left: 0; }
-    .pl1-s960 { padding-left: 16px; padding-left: 1rem; }
-    .pl2-s960 { padding-left: 32px; padding-left: 2rem; }
-    .p0-s960  { padding: 0; }
-    .p1-s960  { padding: 16px; padding: 1rem; }
-    .p2-s960  { padding: 32px; padding: 2rem; }
+    .pt0-s992 { padding-top: 0; }
+    .pt1-s992 { padding-top: 16px; padding-top: 1rem; }
+    .pt2-s992 { padding-top: 32px; padding-top: 2rem; }
+    .pr0-s992 { padding-right: 0; }
+    .pr1-s992 { padding-right: 16px; padding-right: 1rem; }
+    .pr2-s992 { padding-right: 32px; padding-right: 2rem; }
+    .pb0-s992 { padding-bottom: 0; }
+    .pb1-s992 { padding-bottom: 16px; padding-bottom: 1rem; }
+    .pb2-s992 { padding-bottom: 32px; padding-bottom: 2rem; }
+    .pl0-s992 { padding-left: 0; }
+    .pl1-s992 { padding-left: 16px; padding-left: 1rem; }
+    .pl2-s992 { padding-left: 32px; padding-left: 2rem; }
+    .p0-s992  { padding: 0; }
+    .p1-s992  { padding: 16px; padding: 1rem; }
+    .p2-s992  { padding: 32px; padding: 2rem; }
 
-    .pt0-s960 { padding-top: 0; }
-    .pt1-s960 { padding-top: 16px; padding-top: 1rem; }
-    .pt2-s960 { padding-top: 32px; padding-top: 2rem; }
-    .pr0-s960 { padding-right: 0; }
-    .pr1-s960 { padding-right: 16px; padding-right: 1rem; }
-    .pr2-s960 { padding-right: 32px; padding-right: 2rem; }
-    .pb0-s960 { padding-bottom: 0; }
-    .pb1-s960 { padding-bottom: 16px; padding-bottom: 1rem; }
-    .pb2-s960 { padding-bottom: 32px; padding-bottom: 2rem; }
-    .pl0-s960 { padding-left: 0; }
-    .pl1-s960 { padding-left: 16px; padding-left: 1rem; }
-    .pl2-s960 { padding-left: 32px; padding-left: 2rem; }
-    .p0-s960  { padding: 0; }
-    .p1-s960  { padding: 16px; padding: 1rem; }
-    .p2-s960  { padding: 32px; padding: 2rem; }
+    .pt0-s992 { padding-top: 0; }
+    .pt1-s992 { padding-top: 16px; padding-top: 1rem; }
+    .pt2-s992 { padding-top: 32px; padding-top: 2rem; }
+    .pr0-s992 { padding-right: 0; }
+    .pr1-s992 { padding-right: 16px; padding-right: 1rem; }
+    .pr2-s992 { padding-right: 32px; padding-right: 2rem; }
+    .pb0-s992 { padding-bottom: 0; }
+    .pb1-s992 { padding-bottom: 16px; padding-bottom: 1rem; }
+    .pb2-s992 { padding-bottom: 32px; padding-bottom: 2rem; }
+    .pl0-s992 { padding-left: 0; }
+    .pl1-s992 { padding-left: 16px; padding-left: 1rem; }
+    .pl2-s992 { padding-left: 32px; padding-left: 2rem; }
+    .p0-s992  { padding: 0; }
+    .p1-s992  { padding: 16px; padding: 1rem; }
+    .p2-s992  { padding: 32px; padding: 2rem; }
 
-    .w1-s960   { width: 1%; }
-    .w2-s960   { width: 2%; }
-    .w3-s960   { width: 3%; }
-    .w5-s960   { width: 5%; }
-    .w10-s960  { width: 10%; }
-    .w20-s960  { width: 20%; }
-    .w25-s960  { width: 25%; }
-    .w30-s960  { width: 30%; }
-    .w33-s960  { width: 33.333%; }
-    .w40-s960  { width: 40%; }
-    .w45-s960  { width: 45%; }
-    .w49-s960  { width: 49%; }
-    .w50-s960  { width: 50%; }
-    .w60-s960  { width: 60%; }
-    .w66-s960  { width: 66.666%; }
-    .w70-s960  { width: 70%; }
-    .w75-s960  { width: 75%; }
-    .w80-s960  { width: 80%; }
-    .w90-s960  { width: 90%; }
-    .w100-s960 { width: 100%; }
+    .w1-s992   { width: 1%; }
+    .w2-s992   { width: 2%; }
+    .w3-s992   { width: 3%; }
+    .w5-s992   { width: 5%; }
+    .w10-s992  { width: 10%; }
+    .w20-s992  { width: 20%; }
+    .w25-s992  { width: 25%; }
+    .w30-s992  { width: 30%; }
+    .w33-s992  { width: 33.333%; }
+    .w40-s992  { width: 40%; }
+    .w45-s992  { width: 45%; }
+    .w49-s992  { width: 49%; }
+    .w50-s992  { width: 50%; }
+    .w60-s992  { width: 60%; }
+    .w66-s992  { width: 66.666%; }
+    .w70-s992  { width: 70%; }
+    .w75-s992  { width: 75%; }
+    .w80-s992  { width: 80%; }
+    .w90-s992  { width: 90%; }
+    .w100-s992 { width: 100%; }
 
-    .clearNone-s960 { clear: none; }
+    .clearNone-s992 { clear: none; }
 }
 
 @media only screen and (min-width: 1200px) {
