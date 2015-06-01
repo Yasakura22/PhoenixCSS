@@ -53,6 +53,9 @@
 
 .col {
   display: table-cell;
+}
+
+[class*=col] {
   vertical-align: top;
 }
 
