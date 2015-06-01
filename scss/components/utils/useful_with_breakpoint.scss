@@ -21,7 +21,7 @@
 
 @media only screen and (min-width: 320px) {
     .row-s320 { display: table; table-layout: fixed; width: 100%; }
-    .col-s320 { display: table-cell; vertical-align: top; }
+    .col-s320 { display: table-cell; }
     .gut-s320 { height: 1px; }
 
     .block-s320 { display: block; }
@@ -96,7 +96,7 @@
 
 @media only screen and (min-width: 480px) {
     .row-s480 { display: table; table-layout: fixed; width: 100%; }
-    .col-s480 { display: table-cell; vertical-align: top; }
+    .col-s480 { display: table-cell; }
     .gut-s480 { height: 1px; }
 
     .block-s480 { display: block; }
@@ -171,7 +171,7 @@
 
 @media only screen and (min-width: 768px) {
     .row-s768 { display: table; table-layout: fixed; width: 100%; }
-    .col-s768 { display: table-cell; vertical-align: top; }
+    .col-s768 { display: table-cell; }
     .gut-s768 { height: 1px; }
 
     .block-s768 { display: block; }
@@ -247,7 +247,7 @@
 
 @media only screen and (min-width: 960px) {
     .row-s960 { display: table; table-layout: fixed; width: 100%; }
-    .col-s960 { display: table-cell; vertical-align: top; }
+    .col-s960 { display: table-cell; }
     .gut-s960 { height: 1px; }
 
     .block-s960 { display: block; }
@@ -338,7 +338,7 @@
 
 @media only screen and (min-width: 1200px) {
     .row-s1200 { display: table; table-layout: fixed; width: 100%; }
-    .col-s1200 { display: table-cell; vertical-align: top; }
+    .col-s1200 { display: table-cell; }
     .gut-s1200 { height: 1px; }
 
     .block-s1200 { display: block; }
