@@ -1,11 +1,11 @@
-#Convention CSS du projet pour avoir une écriture cohérentes
+# Convention CSS du projet pour avoir une écriture cohérentes
 
  Le présent document liste les conventions pour ce projet, celles-ci sont
  importantes pour une maintenabilité sur le long terme. Le but ici, c'est que
  peu importe le nombre d'intervenants, il faut garder un code propre et
  compréhensible par tous.
 
-##Nom des classes
+## Nom des classes
 
 Les classes doivent être écrites en camel case et de préférence en anglais.
 
@@ -20,13 +20,13 @@ Les classes doivent être écrites en camel case et de préférence en anglais.
 .class-name {}
 ```
 
-###Exceptions
+### Exceptions
 
 Les classes pour les icônes sont générées automatiquement par [Compass](http://compass-style.org/help/tutorials/spriting/) et, de ce fait écrites avec des tirets (exemple : `.icon-home`).
 
 Les classes qui doivent s'appliquer dans un certain contexte sont suffixées du contexte, le suffixe doit être précédé d'un tiret (exemple : `.hide-mobile`)
 
-#1. Indentation
+# 1. Indentation
 
 Chaque niveau d'indentation est composé de quatre espaces. Ne pas utiliser de tabulations (ou pour plus de confort, configurer votre éditeur pour qu'une tabulation égale à quatre espace).
 
@@ -43,7 +43,7 @@ color: #fff;
 background-color: #000;
 }
 ```
-#2. Format
+# 2. Format
 
 Le format de code choisi doit assurer : une bonne lisibilité, des commentaires clairs, une réduction des probabilités d'insertion accidentelle d'erreurs, et la production de fichiers diff et de résolution des problèmes pratiques.
 
@@ -65,7 +65,7 @@ Le format de code choisi doit assurer : une bonne lisibilité, des commentaires 
     display: block;
 }
 ```
-##Ordre des Propriétés
+## Ordre des Propriétés
 
 L'ordre des propriétés doit toujours être la même, les propriétés doivent être déclarées par ordre alphabétique.
 
@@ -82,7 +82,7 @@ L'ordre des propriétés doit toujours être la même, les propriétés doivent 
     width: 50%;
 }
 ```
-##Exceptions et légers écarts
+## Exceptions et légers écarts
 
 De gros blocs de déclarations uniques peuvent utiliser un format légèrement différent, regroupées sur une seule ligne. Dans ce cas, il faut insérer un espace après l'accolade ouvrante et avant l'accolade fermante, sauter une ligne après la déclaration du bloc.
 
@@ -104,7 +104,7 @@ Les longues valeurs de propriétés, séparées par des virgules (comme des ense
         linear-gradient(#f3c, #4ec);
 }
 ```
-##Préprocesseurs : considérations additionnelles pour le formatage
+## Préprocesseurs : considérations additionnelles pour le formatage
 
 Les différents préprocesseurs CSS offrent des possibilités, des fonctionnalités et une syntaxe différentes. Les conventions doivent être étendues pour s'adapter aux particularités des préprocesseurs que l'on utilise. Les conventions suivantes font référence à Sass.
 
@@ -121,14 +121,14 @@ Les différents préprocesseurs CSS offrent des possibilités, des fonctionnalit
     // other declarations
 }
 ```
-##Divers
+## Divers
 
  + Utilisez des minuscules pour les valeurs hexadécimales, exemple : `#aaa `.
  + Utilisez toujours le même type de guillemets. Ma préférence va aux doubles guillemets, exemple : `content: " "`.
  + Utilisez toujours des guillemets pour les valeurs dans les sélecteurs, exemple : `input[type="checkbox"]`.
  + Lorsque c'est autorisé, évitez de spécifier les unités pour les valeurs nulles, exemple : `margin: 0`.
 
-#3. Commentaires
+# 3. Commentaires
 
 Avec _sass_ on peut se permettre de répartir les déclarations css dans plusieurs fichiers car ceux-ci seront réunis et minifiés en un seul fichier css lors de la compilation.
 
@@ -149,7 +149,7 @@ On trouvera donc en début de fichier une description ayant ce format :
  + Utilisez les commentaires comme bon vous semble pour diviser le code CSS en parties distinctes.
  + Rédigez vos commentaires avec des majuscules et des minuscules et gardez une indentation constante pour le texte.
 
-###Exemple de commentaires pour SASS:
+### Exemple de commentaires pour SASS:
 ```css
 // Bloc de commentaire de section
 // ==========================================================================
@@ -169,7 +169,7 @@ On trouvera donc en début de fichier une description ayant ce format :
 //    <input type="submit" class="button" value="Button" />
 ```
 
-###Exemple de commentaires pour KSS:
+### Exemple de commentaires pour KSS:
 ```css
 // Boutons
 //
@@ -184,7 +184,7 @@ On trouvera donc en début de fichier une description ayant ce format :
 // Styleguide 1.1
 ```
 
-#4. Écriture HTML
+# 4. Écriture HTML
 
 Lorsque l'on déclare des attribut dans le code HTML, le faire dans l'ordre alphabétique.
 
@@ -196,7 +196,7 @@ Lors de la déclaration de plusieurs classes, utiliser la même règle.
 ```css
 <div class="color1 grid8 mb10 mt0" data-src="assets/list" id="sidebarList">
 ```
-#Inspirations
+# Inspirations
 
 Pour écrire ces conventions, je me suis inpiré de :
  + [idiomatic-css](https://github.com/DirtyF/idiomatic-css/tree/master/translations/fr-FR)
