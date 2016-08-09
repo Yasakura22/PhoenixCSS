@@ -4,9 +4,9 @@
 // Les différentes couleurs
 //
 // Markup:
-//    <button class="button {$modifiers}">button element</button>
-//    <input type="submit" class="button {$modifiers}" value="input:submit" />
-//    <a href="#" class="button {$modifiers}">link element</a>
+//    <button class="button {{modifier_class}}">button element</button>
+//    <input type="submit" class="button {{modifier_class}}" value="input:submit" />
+//    <a href="#" class="button {{modifier_class}}">link element</a>
 //
 // .buttonBlue              - Bouton bleu
 // .buttonGrey              - Bouton gris

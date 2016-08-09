@@ -9,7 +9,7 @@
 
  Markup:
      <div class="boxRadio radioGroup">
-         <label class="fieldLabel {$modifiers}">
+         <label class="fieldLabel {{modifier_class}}">
              Oui
              <input class="fieldRadio" name="exempleRadio" type="radio" value="a"/>
          </label>
