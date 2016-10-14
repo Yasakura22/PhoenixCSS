@@ -2,7 +2,7 @@
   "name": "PhoenixCSS",
   "version": "1.0.0",
   "description": "Configuration de grunt",
-  "author": "ljamal",
+  "author": "Lionel JAMAL",
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-kss": "^5.0.0",
