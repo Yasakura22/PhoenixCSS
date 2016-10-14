@@ -33,6 +33,7 @@
 //   display: inline-block;
 //   vertical-align: top;
 // }
+// .inbl.fixWhitespace { margin-right: -0.25em;}
 // </pre>
 //
 // <h2>Float et positions</h2>
@@ -70,6 +71,8 @@
   display: inline-block;
   vertical-align: top;
 }
+
+.inbl.fixWhitespace { margin-right: -0.25em;}
 
 .ie7 .inbl {
   display: inline;
