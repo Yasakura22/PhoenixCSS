@@ -4,6 +4,6 @@
   "description": "Framework CSS",
   "author": "Lionel JAMAL",
   "devDependencies": {
-
+    "gulp-sass": "^2.3.2"
   }
 }
